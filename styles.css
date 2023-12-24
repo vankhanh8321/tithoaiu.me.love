@@ -40,22 +40,22 @@ img{
   border-radius: 20%;
 }
 .img1{
-  margin-left: 490px;
+  margin-left: 470px;
   margin-top: 30px;
   transform: rotate(-30deg);
 }
 .img2{
-  margin-left: 450px;
+  margin-left: 430px;
   margin-top: 220px;
   transform: rotate(-30deg);
 }
 .img3{
-  margin-left: 860px;
+  margin-left: 840px;
   margin-top: 30px;
   transform: rotate(30deg);
 }
 .img4{
-  margin-left: 900px;
+  margin-left: 880px;
   margin-top: 220px;
   transform: rotate(30deg);
 }
