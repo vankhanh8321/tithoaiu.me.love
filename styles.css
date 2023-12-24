@@ -1,0 +1,415 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  position: relative;
+  background: #000000;
+  /* min-height: 100vh; */
+  height: 150px;
+  width: 100%;
+  overflow: hidden;
+}
+.dark-mode {
+  background-color: rgb(255, 148, 219);
+}
+button{
+  height: 20px;
+  background-color: rgba(103, 255, 237, 0.673);
+  color: #000000;
+  border-radius: 10%;
+  font-family:'Montserrat';
+  border-color: rgba(103, 255, 237, 0.673);
+  font-weight: bold;
+  position: relative;
+}
+button:hover{
+  background-color: rgb(255, 148, 219);
+  border-color: rgb(255, 148, 219);
+}
+audio{
+  position: relative;
+  margin-top: 30%;
+}
+img{
+  height: 230px;
+  width: 150px;
+  position: absolute;
+  border-radius: 20%;
+}
+.img1{
+  margin-left: 490px;
+  margin-top: 30px;
+  transform: rotate(-30deg);
+}
+.img2{
+  margin-left: 450px;
+  margin-top: 220px;
+  transform: rotate(-30deg);
+}
+.img3{
+  margin-left: 860px;
+  margin-top: 30px;
+  transform: rotate(30deg);
+}
+.img4{
+  margin-left: 900px;
+  margin-top: 220px;
+  transform: rotate(30deg);
+}
+.tree {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.t-tree i {
+  position: absolute;
+  color: #FF90BC;
+  font-size: 4rem;
+  animation: animeTopStar 5s linear infinite;
+}
+
+.t-tree span {
+  filter: drop-shadow(0 0 5px #FF90BC) drop-shadow(0 0 15px #FF90BC) drop-shadow(0 0 100px #FF90BC);
+}
+
+.my-star-left i {
+  position: absolute;
+  top: 50px;
+  display: inline-block;
+  color: #FF90BC;
+  font-size: 1rem;
+  animation: animatePositionLeft 15s linear infinite;
+  animation-delay: calc(var(--i)*0.1s);
+}
+
+.my-star-right i {
+  position: absolute;
+  display: inline-block;
+  color: #8ACDD7;
+  top: 50px;
+  font-size: 1rem;
+  animation: animatePositionRight 15s linear infinite;
+  animation-delay: calc(var(--i)*0.2s);
+}
+
+@keyframes animatePositionLeft {
+  0% {
+    transform: translate(0px, 0px) translateZ(0px);
+  }
+
+  5% {
+    transform: translate(10px, 25px) translateZ(5px);
+  }
+
+  10% {
+    transform: translate(-20px, 50px) translateZ(10px);
+  }
+
+  15% {
+    transform: translate(30px, 75px) translateZ(15px);
+  }
+
+  20% {
+    transform: translate(-40px, 100px) translateZ(20px);
+  }
+
+  25% {
+    transform: translate(50px, 125px) translateZ(25px);
+  }
+
+  30% {
+    transform: translate(-60px, 150px) translateZ(30px);
+  }
+
+  35% {
+    transform: translate(70px, 175px) translateZ(35px);
+  }
+
+  40% {
+    transform: translate(-80px, 200px) translateZ(40px);
+  }
+
+  45% {
+    transform: translate(90px, 225px) translateZ(45px);
+  }
+
+  50% {
+    transform: translate(-100px, 250px) translateZ(50px);
+  }
+
+  55% {
+    transform: translate(110px, 275px) translateZ(55px);
+  }
+
+  60% {
+    transform: translate(-120px, 300px) translateZ(60px);
+  }
+
+  65% {
+    transform: translate(130px, 325px) translateZ(65px);
+  }
+
+  70% {
+    transform: translate(-140px, 350px) translateZ(70px);
+  }
+
+  75% {
+    transform: translate(150px, 375px) translateZ(75px);
+  }
+
+  80% {
+    transform: translate(-160px, 400px) translateZ(80px);
+  }
+
+  85% {
+    transform: translate(170px, 425px) translateZ(85px);
+  }
+
+  90% {
+    transform: translate(-180px, 450px) translateZ(90px);
+  }
+
+  95% {
+    transform: translate(190px, 475px) translateZ(95px);
+  }
+
+  100% {
+    transform: translate(-200px, 500px) translateZ(100px);
+  }
+
+
+}
+
+@keyframes animatePositionRight {
+  0% {
+    transform: translate(0px, 0px) translateZ(0px);
+  }
+
+  5% {
+    transform: translate(-10px, 25px) translateZ(5px);
+  }
+
+  10% {
+    transform: translate(20px, 50px) translateZ(10px);
+  }
+
+  15% {
+    transform: translate(-30px, 75px) translateZ(15px);
+  }
+
+  20% {
+    transform: translate(40px, 100px) translateZ(20px);
+  }
+
+  25% {
+    transform: translate(-50px, 125px) translateZ(25px);
+  }
+
+  30% {
+    transform: translate(60px, 150px) translateZ(30px);
+  }
+
+  35% {
+    transform: translate(-70px, 175px) translateZ(35px);
+  }
+
+  40% {
+    transform: translate(80px, 200px) translateZ(40px);
+  }
+
+  45% {
+    transform: translate(-90px, 225px) translateZ(45px);
+  }
+
+  50% {
+    transform: translate(100px, 250px) translateZ(50px);
+  }
+
+  55% {
+    transform: translate(-110px, 275px) translateZ(55px);
+  }
+
+  60% {
+    transform: translate(120px, 300px) translateZ(60px);
+  }
+
+  65% {
+    transform: translate(-130px, 325px) translateZ(65px);
+  }
+
+  70% {
+    transform: translate(140px, 350px) translateZ(70px);
+  }
+
+  75% {
+    transform: translate(-150px, 375px) translateZ(75px);
+  }
+
+  80% {
+    transform: translate(160px, 400px) translateZ(80px);
+  }
+
+  85% {
+    transform: translate(-170px, 425px) translateZ(85px);
+  }
+
+  90% {
+    transform: translate(180px, 450px) translateZ(90px);
+  }
+
+  95% {
+    transform: translate(-190px, 475px) translateZ(95px);
+  }
+
+  100% {
+    transform: translate(200px, 500px) translateZ(100px);
+  }
+}
+
+.my-star-left,
+.my-star-right {
+  animation: animateColor 5s linear infinite;
+  animation-delay: calc(var(--i)*0.1s);
+}
+
+@keyframes animateColor {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes animeTopStar {
+
+  0%,
+  100% {
+    filter: hue-rotate(0deg);
+    opacity: 0.1;
+    transform: scale(0.8) translateX(-25px);
+  }
+
+  50% {
+    filter: hue-rotate(360deg);
+    opacity: 0.9;
+    transform: scale(1) translateX(-25px);
+  }
+}
+
+.banner {
+  display: flex;
+  height: 80%;
+  align-items: center;
+  margin-top: -20px;
+}
+
+svg {
+    display: block;
+    font: 5em 'Montserrat';
+    width: 720px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #4D163D;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #840037;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #BD0034;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #BD0034;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #FDB731;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
+
+.tree-root{
+  position: absolute;
+  top:730px;
+  width: 150px;
+  height: 150px;
+  transform-origin: 50% 50%;
+  transform-style: preserve-3d;
+  animation: rootAnimate 8s linear infinite;
+  animation-delay: 15s;
+  visibility: hidden;
+}
+
+@keyframes rootAnimate {
+  0%{
+    transform: rotateX(-30deg) rotateY(0deg);
+    visibility: hidden;
+  }
+  100%{
+    visibility: visible;
+    transform: rotateX(-30deg) rotateY(360deg);
+  }
+}
+
+.tree-root div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+}
+
+.tree-root div span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#000000, #BD0034);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  transform: rotateY(calc(90deg * var(--i))) translateZ(74px) rotateX(30deg);
+  transform-origin: bottom;
+}
+
+.tree-root .palette{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #BD0034;
+  transform: rotateX(90deg) translateZ(-75px);
+  filter: blur(20px);
+  box-shadow: 0 0 60px #BD0034,
+  0 0 100px #BD0034,
+  0 0 150px #BD0034;
+}
