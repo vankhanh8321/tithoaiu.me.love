@@ -40,24 +40,25 @@ img{
   border-radius: 20%;
 }
 .img1{
-  margin-left: 470px;
+  margin-left: 500px;
   margin-top: 30px;
   transform: rotate(-30deg);
 }
 .img2{
-  margin-left: 430px;
+  margin-left: 460px;
   margin-top: 220px;
   transform: rotate(-30deg);
 }
 .img3{
-  margin-left: 840px;
+  margin-left: 870px;
   margin-top: 30px;
   transform: rotate(30deg);
 }
 .img4{
-  margin-left: 880px;
+  margin-left: 910px;
   margin-top: 220px;
   transform: rotate(30deg);
+}otate(30deg);
 }
 .tree {
   text-align: center;
